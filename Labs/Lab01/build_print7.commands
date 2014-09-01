@@ -1,6 +1,6 @@
  cpp print7.s print7.S
- as -als print7.S -o print7.o
-# as print7.S -o print7.o
+ as -g -als print7.S -o print7.o
+# as -g print7.S -o print7.o
  ld -o print7 print7.o
 # rm *.o *.S print7
 
