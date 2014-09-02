@@ -1,0 +1,3 @@
+gcc -O1 -Wno-unused-result   -g -o arrayDemo arrayDemo.c
+gcc -g -o arrayDemoNotOptimized  arrayDemo.c
+
